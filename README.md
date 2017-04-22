@@ -35,9 +35,28 @@
 ```json
 
 {
-    "name": "rrule",
-    "version": "2.2.0",
+    "author": {
+        "name": "Jakub Roztocil and Lars Schöning"
+    },
+    "bugs": {
+        "url": "https://github.com/jakubroztocil/rrule/issues"
+    },
+    "dependencies": {},
     "description": "JavaScript library for working with recurrence rules for calendar dates.",
+    "devDependencies": {
+        "mocha": "^2.3.4",
+        "standard": "^5.4.1"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "f346c523bf73707dafe562c222650467b49f6d5c",
+        "tarball": "https://registry.npmjs.org/rrule/-/rrule-2.2.0.tgz"
+    },
+    "files": [
+        "lib",
+        "README.md"
+    ],
+    "gitHead": "571bf8f6d87658f8c6c117c13b324d7c04d6d1bb",
     "homepage": "http://jakubroztocil.github.io/rrule/",
     "keywords": [
         "dates",
@@ -46,8 +65,14 @@
         "icalendar",
         "rfc"
     ],
-    "author": "Jakub Roztocil and Lars Schöning",
     "main": "lib/rrule",
+    "maintainers": [
+        {
+            "name": "jakubroztocil"
+        }
+    ],
+    "name": "rrule",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/jakubroztocil/rrule.git"
@@ -55,19 +80,13 @@
     "scripts": {
         "test": "standard && mocha"
     },
-    "devDependencies": {
-        "mocha": "^2.3.4",
-        "standard": "^5.4.1"
-    },
     "standard": {
         "ignore": [
             "demo"
         ]
     },
-    "files": [
-        "lib",
-        "README.md"
-    ]
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
